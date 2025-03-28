@@ -16,6 +16,7 @@ public class Principal {
         int numeroDeFamiliar = scanner.nextInt();
         Familiar[] familiares = new Familiar[numeroDeFamiliar];
 
+        //Iniciar
         for (int i = 0; i < numeroDePersona; i++) {
             Persona persona = new Persona();
             System.out.println("Ingrese el numero de cedula");
