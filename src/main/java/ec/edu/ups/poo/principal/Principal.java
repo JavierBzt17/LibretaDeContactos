@@ -29,6 +29,7 @@ public class Principal {
             persona.setDireccion(scanner.next());
             personas[i] = persona;
         }
+        // Se mejorara el codigo de una manera mas estetica
         for (int i = 0; i < numeroDeFamiliar; i++) {
             Familiar familiar = new Familiar();
             System.out.println("Ingrese el numero de cedula");
