@@ -55,12 +55,12 @@ public class Principal {
 
             familiares[i] = familiar;
         }
-        System.out.println("\n--- Información de las Personas ---");
+        System.out.println("--- Información de las Personas ---");
         for (Persona persona : personas) {
             System.out.println(persona);
             System.out.println(" ");
         }
-        System.out.println("\n--- Información de los Familiares ---");
+        System.out.println("--- Información de los Familiares ---");
         for (Familiar familiar : familiares) {
             System.out.println(familiar);
             System.out.println(" ");
