@@ -19,36 +19,36 @@ public class Principal {
         //Iniciar
         for (int i = 0; i < numeroDePersona; i++) {
             Persona persona = new Persona();
-            System.out.println("Ingrese el numero de cedula");
+            System.out.print("Ingrese el numero de cedula: ");
             persona.setCedula(scanner.next());
-            System.out.println("Ingrese el nombre");
+            System.out.print("Ingrese el nombre: ");
             persona.setNombre(scanner.next());
-            System.out.println("Ingrese el apellido");
+            System.out.print("Ingrese el apellido: ");
             persona.setApellido(scanner.next());
-            System.out.println("Ingrese la direccion");
+            System.out.print("Ingrese la direccion: ");
             persona.setDireccion(scanner.next());
             personas[i] = persona;
         }
         // Se mejorara el codigo de una manera mas estetica
         for (int i = 0; i < numeroDeFamiliar; i++) {
             Familiar familiar = new Familiar();
-            System.out.println("Ingrese el numero de cedula");
+            System.out.print("Ingrese el numero de cedula: ");
             familiar.setCedula(scanner.next());
-            System.out.println("Ingrese el nombre");
+            System.out.print("Ingrese el nombre: ");
             familiar.setNombre(scanner.next());
-            System.out.println("Ingrese el apellido");
+            System.out.print("Ingrese el apellido: ");
             familiar.setApellido(scanner.next());
-            System.out.println("Ingrese la direccion");
+            System.out.print("Ingrese la direccion: ");
             familiar.setDireccion(scanner.next());
-            System.out.println("Ingrese el parentesco");
+            System.out.print("Ingrese el parentesco: ");
             familiar.setParentesco(scanner.next());
-            System.out.println("Ingrese el tipo de sangre");
+            System.out.print("Ingrese el tipo de sangre: ");
             familiar.setTipoDeSangre(scanner.next());
-            System.out.println("Ingrese el año de nacimiento");
+            System.out.print("Ingrese el año de nacimiento: ");
             int year = scanner.nextInt();
-            System.out.println("Ingrese el mes de nacimiento");
+            System.out.print("Ingrese el mes de nacimiento: ");
             int month = scanner.nextInt() - 1;
-            System.out.println("Ingrese el día de nacimiento");
+            System.out.print("Ingrese el día de nacimiento: ");
             int day = scanner.nextInt();
             GregorianCalendar fechaNacimiento = new GregorianCalendar(year, month-1, day);
             familiar.setFechaDeNacimiento(fechaNacimiento);
